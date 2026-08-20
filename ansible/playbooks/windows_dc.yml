@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: windowsservers
   gather_facts: True
 #  tasks:
 #    - debug:
@@ -7,5 +7,3 @@
     - common
     - windows_dns_server
     - windows_domain_controller
-  vars_files:
-    - ../vars/vars.yml 

@@ -1,2 +1,4 @@
-- include: create.yml
-- include: reboot.yml 
+- name: Install Features and Create Domain
+  ansible.builtin.include_tasks: create.yml
+- name: Reboot if necessary
+  ansible.builtin.include_tasks: reboot.yml 

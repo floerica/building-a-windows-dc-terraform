@@ -1,2 +1,5 @@
-- include: features.yml
-- include: reboot.yml 
+- name: Install DNS Feature
+  ansible.builtin.include_tasks: features.yml
+
+- name: Reboot if necessary
+  ansible.builtin.include_tasks: reboot.yml 
