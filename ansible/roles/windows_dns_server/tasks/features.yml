@@ -1,6 +1,6 @@
 ---
 - name: features | Installing Windows DNS Server
-  win_feature:
+  ansible.builtin.win_feature:
     name: DNS
     state: present
     include_management_tools: yes

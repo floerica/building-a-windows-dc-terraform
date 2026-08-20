@@ -1,6 +1,6 @@
 ---
 - name: reboot | Rebooting Server
-  win_reboot:
+  ansible.windows.win_reboot:
     reboot_timeout_sec: 3600
   when: >
     _windows_dns_server['restart_needed'] is defined and
