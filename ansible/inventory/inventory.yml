@@ -1,0 +1,22 @@
+---
+controlnode:
+  hosts:
+    controlnode01:
+      ansible_host: controlnode-user1.ansible-windows.training.scinnolab.net
+
+managednodes:
+  hosts:
+    windowsserver01:
+      ansible_host: windows-server-user1.ansible-windows.training.scinnolab.net
+    windowsclient01:
+      ansible_host: windows-client-user1.ansible-windows.training.scinnolab.net
+
+servers:
+  hosts:
+    windowsserver01: {}
+
+clients:
+  hosts:
+    windowsclient01: {}
+
+...
