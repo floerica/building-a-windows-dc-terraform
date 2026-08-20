@@ -1,0 +1,9 @@
+---
+collections:
+ - community.windows
+ - community.general
+ - microsoft.ad
+ - microsoft.iis
+ - ansible.posix
+ - ansible.windows
+ - amazon.aws
